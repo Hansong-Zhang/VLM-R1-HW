@@ -20,7 +20,8 @@
 #     debugpy.wait_for_client()
 # except Exception as e:
 #     pass
-
+import sys
+sys.path.append('/home/zhanghansong/CODES/VLM-R1/src/open-r1-multimodal/src')
 import os
 import re
 from datetime import datetime
