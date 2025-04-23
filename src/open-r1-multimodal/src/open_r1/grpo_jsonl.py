@@ -11,7 +11,11 @@
 # WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 # See the License for the specific language governing permissions and
 # limitations under the License.
-
+import sys
+sys.path.append('/home/zhanghansong/CODES/VLM-R1-HW/src/open-r1-multimodal/src')
+if '/home/zhanghansong/CODES/VLM-R1/src/open-r1-multimodal/src' in sys.path:
+    sys.path.remove('/home/zhanghansong/CODES/VLM-R1/src/open-r1-multimodal/src')
+    
 import os
 import re
 import pathlib
