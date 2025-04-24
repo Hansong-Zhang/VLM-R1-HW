@@ -61,7 +61,7 @@ torchrun --nproc_per_node="2" \
     --max_completion_length 2048 \
     --reward_funcs accuracy format \
     --beta 0.04 \
-    --report_to wandb \
+    --report_to none \
     --dataset-name this_is_not_used \
     --deepspeed ${REPO_HOME}/src/open-r1-multimodal/local_scripts/zero2.json \
     --learning_rate 1e-5 \
